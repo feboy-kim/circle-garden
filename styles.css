@@ -1,0 +1,9 @@
+.main-center {
+    margin   : 0 auto;
+    min-width: 576px;
+    max-width: 1200px;
+}
+
+.flex-block {
+    display: flex;
+}

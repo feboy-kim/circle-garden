@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="styles.css">
+    <title>Circle Garden</title>
+</head>
+
+<body>
+    <div class="main-center flex-block">
+        <canvas id="circle-01" width="120" height="120"></canvas>
+        <canvas id="circle-02" width="120" height="120"></canvas>
+        <canvas id="circle-03" width="120" height="120"></canvas>
+    </div>
+    <script src="circle-drawer.js"></script>
+    <script>
+       drawer.circleLine01(document.getElementById('circle-01'));
+       drawer.circleLine02(document.getElementById('circle-02'));
+       drawer.circleLine03(document.getElementById('circle-03'));
+    </script>
+</body>
+
+</html>
